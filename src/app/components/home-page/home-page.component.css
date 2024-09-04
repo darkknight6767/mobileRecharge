@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 0;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #e2e2e2;
+    margin-bottom: 2rem;
+}
+
+.hero h2 {
+    margin-bottom: 1rem;
+}
+
+.hero .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #45a049;
+}
+
+.recharge-form {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.recharge-form h3 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.recharge-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.recharge-form label {
+    margin-bottom: 0.5rem;
+}
+
+.recharge-form input, .recharge-form select, .recharge-form button {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.recharge-form .btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.recharge-form .btn:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}

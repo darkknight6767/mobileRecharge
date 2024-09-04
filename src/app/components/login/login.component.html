@@ -1,0 +1,45 @@
+<app-nav-bar></app-nav-bar>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ArticFox</title>
+<link rel="stylesheet" href="./login.component.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+<div class="wrapper">
+	<form method="post" action="login">
+		<h1>Login</h1>
+		
+		<div class="input-box">
+			<i class='bx bxs-user'></i>
+			<input type="text" placeholder="Phone no:" name="Phone no:" id="Username" required>
+		</div>
+		
+		<div class="input-box">
+		<i class='bx bxs-lock-alt' ></i>
+			<input type="password" placeholder="Password" name="password" id="password" required>
+		</div>
+		
+		<div class="remember-box">
+			<label><input type="checkbox">Remember me</label>
+		</div>
+		
+		<button type="submit" class="btn">Login</button>
+		
+		<div class="register-link">
+			<p>Don't have an account? <a href="/register">Register</a> </p>
+		</div>
+		
+	</form>
+
+</div>
+		
+
+
+</body>
+</html>
